@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tailwind CSS</title>
   <link href="./src/output.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
 </head>
+
 <body class="h-1000 position-relative">
-  
+
   <nav class="flex justify-between items-center pt-5 pr-[60px] pl-20 fixed top-0 w-full bg-[#3f181c] text-white z-50">
     <div class="no-underline inline-block pl-20 py-2 font-bold ">☕COFFEE</div>
     <ul>
-    <li class="no-underline inline-block px-5 py-2 cursor-pointer">Home</li>
-    <li class="no-underline inline-block px-5 py-2 cursor-pointer">About </li>
-    <li class="no-underline inline-block px-5 py-2 cursor-pointer">Menu</li>
-    <li class="no-underline inline-block px-5 py-2 cursor-pointer">Terminal</li>
-    <li class="no-underline inline-block px-5 py-2 cursor-pointer">Gallery</li>
-    <li class="no-underline inline-block px-5 py-2 cursor-pointer">Contact</li>
-  </ul>
-</nav>
-<div class="container min-h-screen bg-[#3f181c] text-white p-5 relative px-10">
-<div class="pl-20 pt-50">
-  <h1 class="text-4xl font-bold pb-5 text-yellow-500 font-family">Best coffee</h1>
-  <p class="text-3xl font-bold pb-5">Make Your Day With Our Special Coffee</p>
-  <p class="text-lg w-130 ">Welcome to our coffee paradise, where every bean tells
-    a story and every cup sparks joy.</p>
-  <div class="pt-10 "><div class="inline-block border bg-yellow-500 text-[#3f181c] rounded-4xl w-37 h-10 text-center content-center hover:bg-[#3f181c] hover:text-yellow-500 cursor-pointer" >Order Now</div>
-  <div class="inline-block border rounded-4xl w-37 h-10 text-center content-center hover:bg-yellow-500 hover:text-[#3f181c] cursor-pointer ml-5 text-yellow-500">Contact Us</div>
-</div>
-</div>
-<img class="w-3xs xl:w-1/3 xl:absolute bottom-25 right-30" src="images/coffee-hero-section.png" alt="">
+      <li class="no-underline inline-block px-5 py-2 cursor-pointer">Home</li>
+      <li class="no-underline inline-block px-5 py-2 cursor-pointer">About </li>
+      <li class="no-underline inline-block px-5 py-2 cursor-pointer">Menu</li>
+      <li class="no-underline inline-block px-5 py-2 cursor-pointer">Terminal</li>
+      <li class="no-underline inline-block px-5 py-2 cursor-pointer">Gallery</li>
+      <li class="no-underline inline-block px-5 py-2 cursor-pointer">Contact</li>
+    </ul>
+  </nav>
+  <div class="container min-h-screen bg-[#3f181c] text-white p-5 relative px-10">
+    <div class="pl-20 pt-50">
+      <h1 class="text-4xl font-bold pb-5 text-yellow-500 font-family">Best coffee</h1>
+      <p class="text-3xl font-bold pb-5">Make Your Day With Our Special Coffee</p>
+      <p class="text-lg w-130 ">Welcome to our coffee paradise, where every bean tells
+        a story and every cup sparks joy.</p>
+      <div class="pt-10 ">
+        <div
+          class="inline-block border bg-yellow-500 text-[#3f181c] rounded-4xl w-37 h-10 text-center content-center hover:bg-[#3f181c] hover:text-yellow-500 cursor-pointer">
+          Order Now</div>
+        <div
+          class="inline-block border rounded-4xl w-37 h-10 text-center content-center hover:bg-yellow-500 hover:text-[#3f181c] cursor-pointer ml-5 text-yellow-500">
+          Contact Us</div>
+      </div>
+    </div>
+    <img class="w-3xs xl:w-1/3 xl:absolute bottom-25 right-30" src="images/coffee-hero-section.png" alt="">
   </div>
   <div class="h-150 max-h-screen  p-5 relative px-10">
-    <img class="bg-red  w-100 h-100  xl:absolute top-30 left-30 rounded-full" src="images/about-image.jpg" alt="" class="object-contain md:object-cover content-center">
+    <img class="bg-red  w-100 h-100  xl:absolute top-30 left-30 rounded-full" src="images/about-image.jpg" alt=""
+      class="object-contain md:object-cover content-center">
     <div class="w-200 h-80 xl:absolute bottom-30 right-10   text-black text-center flex-vertical  ">
       <h1 class="text-4xl font-bold py-5 underline">About Us</h1>
-      <div class="w-200 px-auto text-center "><p class="px-10 py-10 ">At Coffee House in Berndorf, Germany, we pride ourselves on being a
-        go-to destination for coffee lovers and conversation seekers alike.
-        We're dedicated to providing an exceptional coffee experience in a
-        cozy and inviting atmosphere, where guests can relax, unwind, and
-        enjoy their time in comfort.</p>
+      <div class="w-200 px-auto text-center ">
+        <p class="px-10 py-10 ">At Coffee House in Berndorf, Germany, we pride ourselves on being a
+          go-to destination for coffee lovers and conversation seekers alike.
+          We're dedicated to providing an exceptional coffee experience in a
+          cozy and inviting atmosphere, where guests can relax, unwind, and
+          enjoy their time in comfort.</p>
       </div>
       <div>
         <img src="images/index.png" alt="" class="w-10 inline-block cursor-pointer ">
@@ -53,41 +62,58 @@
   </div>
   <div class="h-300 bg-[#252525] text-center text-yellow-500 text-4xl font-bold p-10">
     <h1 class="underline decoration-yellow-500">OUR MENU</h1>
-   
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 p-10 pt-40 ">
-      
-      <div class=" text-center p-10 rounded-lg shadow-lg h-80">
-        <img src="images/hot-beverages.png" alt="" class="object-contain">
-        <h2 class="text-yellow-500 text-xl font-bold"></h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 p-10 pt-30 ">
+
+      <div class=" text-center px-10 pt-10 rounded-lg shadow-lg  bg-blue-50 relative">
+        <img src="images/hot-beverages.png" alt="" class="object-contain md:object-cover content-center">
         
+        <h1 class="text-yellow-500 text-xl font-bold">Hot Beverages</h1>
+        <h2 class="text-yellow-500 text-lg font-bold">
+          Wide range Of Steaming hot
+          coffee to make you fresh and light.</h2>
+        
+
       </div>
-      <div class=" text-center p-10 rounded-lg shadow-lg ">
-        <img src="images/cold-beverages.png" alt="">
-        <h2 class="text-yellow-500 text-xl font-bold"></h2>
-        
-      </div>
-      <div class=" text-center p-10 rounded-lg shadow-lg">
-        <img src="images/refreshment.png" alt="">
-        <h2 class="text-yellow-500 text-xl font-bold"></h2>
-        
-      </div>
-      <div class=" text-center p-10 rounded-lg shadow-lg h-80">
-        <img src="images/special-combo.png" alt="">
-        <h2 class="text-yellow-500 text-xl font-bold"></h2>
-        
+      <div class=" text-center p-10 rounded-lg shadow-lg  ">
+        <img src="images/cold-beverages.png" alt="" class="object-contain md:object-cover content-center">
+        <h1 class="text-yellow-500 text-xl font-bold">Cold Beverages</h1>
+        <h2 class="text-yellow-500 text-lg font-bold">
+          Creamy and frothy cold coffee to make u cool.</h2>
+
       </div>
       <div class=" text-center p-10 rounded-lg shadow-lg">
-        <img src="images/desserts.png" alt="">
-        <h2 class="text-yellow-500 text-xl font-bold"></h2>
-        
+        <img src="images/refreshment.png" alt="" class="object-contain md:object-cover content-center">
+        <h1 class="text-yellow-500 text-xl font-bold">Refreshment</h1>
+        <h2 class="text-yellow-500 text-lg font-bold">
+          Fruit and icy refereshing drink to make u feel refreshed.</h2>
+
       </div>
       <div class=" text-center p-10 rounded-lg shadow-lg">
-        <img src="images/burger-frenchfries.png" alt="">
-        <h2 class="text-yellow-500 text-xl font-bold"></h2>
-        
+        <img src="images/special-combo.png" alt="" class="object-contain md:object-cover content-center">
+        <h1 class="text-yellow-500 text-xl font-bold">Special Combos</h1>
+        <h2 class="text-yellow-500 text-lg font-bold">
+          Your favorite eating and drinking
+          combations.</h2>
+
+      </div>
+      <div class=" text-center p-10 rounded-lg shadow-lg">
+        <img src="images/desserts.png" alt="" class="object-contain md:object-cover content-center">
+        <h1 class="text-yellow-500 text-xl font-bold">Deserts</h1>
+        <h2 class="text-yellow-500 text-lg font-bold">
+          Satiate your palate and take you
+          on a culinary treat.</h2>
+      </div>
+      <div class=" text-center p-10 rounded-lg shadow-lg">
+        <img src="images/burger-frenchfries.png" alt="" class="object-contain md:object-cover content-center">
+        <h1 class="text-yellow-500 text-xl font-bold">Burger & French Fries</h1>
+         <h2 class="text-yellow-500 text-lg font-bold"> Quick bites to satisfy your small
+          size hunger.</h2>
+
       </div>
     </div>
-    
+
   </div>
 </body>
+
 </html>
